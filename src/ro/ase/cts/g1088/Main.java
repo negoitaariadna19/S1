@@ -15,6 +15,10 @@ public class Main {
             {
                 throw new ExceptionAllower();
             }
+            if(str.toUpperCase()==str)
+            {
+                throw new ExceptionUpper();
+            }
         }catch (Exception e) {
             System.out.println(e.getMessage());
         }

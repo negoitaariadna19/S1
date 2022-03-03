@@ -7,3 +7,10 @@ public class ExceptionAllower extends Exception{
         return "Toate literele sunt mici";
     }
 }
+ class ExceptionUpper extends Exception{
+     @Override
+     public String getMessage()
+     {
+         return "Toate literele sunt mari";
+     }
+ }
